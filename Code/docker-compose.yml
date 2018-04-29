@@ -1,0 +1,39 @@
+version: "3"
+
+services:
+
+  backend:
+
+    image: flask-backend
+    
+    build:
+
+      context: ./ProjectClassific
+
+      dockerfile: Dockerfile
+
+    container_name: "MLBackend-Services"
+
+    volumes:
+        - ./ProjectClassific :/app # for watching files
+
+    ports:
+      - "8081:8081"
+  
+  frontend:
+
+    image: angular-frontend
+    
+    build:
+
+      context: ./FrontendML
+
+      dockerfile: Dockerfile
+
+    container_name: "AngularFrontend-Services"
+
+    volumes:
+        - ./FrontendML/src:/app/src # for watching files
+
+    ports:
+      - "8080:80"

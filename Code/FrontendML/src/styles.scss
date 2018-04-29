@@ -1,0 +1,104 @@
+/* You can add global styles to this file, and also import other style files */
+
+@media only screen and (min-width: 768px) {
+    .navbar {
+        background-color: #4A5056;
+        padding-top:25px;
+        padding-bottom: 25px;
+    }
+    .intro{min-height: 348px;background-position-y: -140px;}    
+}
+@media only screen and (min-width: 576px) {
+    .navbar.scrolling-navbar.top-nav-collapse {
+        padding-top:25px;
+        padding-bottom: 25px;
+    }
+    .intro{min-height: 348px !important;background-position-y: -140px;}    
+}
+@media only screen and (min-width: 576px) {
+    
+}
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  .intro{background-position-y: -140px !important;}
+}
+.view {background: url("assets/img/fullbg4.jpg")no-repeat center center;background-size: cover;}
+.avatar img{width: 150px;height: 180px;}
+.alertsContainer .alertsRow{margin-top:70px !important;}
+.alertsContainer .messagepanel{height:65px !important;background-color: #00C851!important;color: white !important;}
+.alertsContainer .iconpanel{height:65px !important;}
+
+// icon
+.icon-link .fa {
+  color: #fff;
+  line-height: 60px;
+  font-size: 36px;
+}
+.icon-link:hover .fa-github {
+  color: #444;
+  transition: color 150ms ease-in-out;
+}
+.icon-link:hover .fa-envelope {
+  color: #333;
+  transition: color 150ms ease-in-out;
+}
+.icon-link:hover .fa-linkedin {
+  color: #007bb6;
+  transition: color 150ms ease-in-out;
+}
+.icon-link:hover {
+  transition: background-color 150ms ease-in-out;
+  height: 56px;
+  line-height: 56px;
+  width: 56px;
+  background-color: #fff;
+}
+.icon-link.round-corner {
+  border-radius: 5px;
+}
+.icon-link.fill.envelope {
+  background-color: #333;
+}
+.icon-link.fill.envelope:hover {
+  background-color: #fff;
+}
+.icon-link.fill.envelope:hover .fa-envelope {
+  color: #333;
+  transition: color 150ms ease-in-out;
+}
+.icon-link.fill.github {
+  background-color: #444;
+}
+.icon-link.fill.github:hover {
+  background-color: #fff;
+}
+.icon-link.fill.github:hover .fa-github {
+  color: #444;
+  transition: color 150ms ease-in-out;
+}
+.icon-link.fill.linkedin {
+  background-color: #007bb6;
+}
+.icon-link.fill.linkedin:hover {
+  background-color: #fff;
+}
+.icon-link.fill.linkedin:hover .fa-linkedin {
+  color: #007bb6;
+  transition: color 150ms ease-in-out;
+}
+.icon-link {
+  width: 60px;
+  height: 60px;
+  background-color: #666;
+  line-height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  margin: 5px;
+  box-sizing: content-box;
+}
+    
