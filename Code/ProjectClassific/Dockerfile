@@ -6,7 +6,7 @@ ADD . /ProjectClassific
 
 WORKDIR /ProjectClassific
 
-RUN 	pip install --upgrade pip==9.0.3 && \
+RUN 	pip install --upgrade pip==18.0 && \
 	pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 8081
