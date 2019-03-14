@@ -3,7 +3,7 @@ Machine Learning Klasifikasi Dokumen Skripsi Teknik Informatika
 
 # Arsitektur Design System Machine Learning :
 
-![alt text](https://raw.githubusercontent.com/oottoohh/SkripsiProject/blob/master/ArsitekturDesign.png)
+![alt text](https://raw.githubusercontent.com/oottoohh/SkripsiProject/master/ArsitekturDesign.png)
 
 ## RUN this project easily with Docker
 
