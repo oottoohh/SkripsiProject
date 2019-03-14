@@ -1,10 +1,6 @@
 # SkripsiProject
 Machine Learning Klasifikasi Dokumen Skripsi Teknik Informatika
 
-# Arsitektur Design System Machine Learning :
-
-![alt text](https://raw.githubusercontent.com/oottoohh/SkripsiProject/master/ArsitekturDesign.png)
-
 ## RUN this project easily with Docker
 
 After cloning the repository go inside the project folder:
@@ -20,5 +16,8 @@ Enjoy !
 
 You need install and export data MongoDB for run this project, export data using json file inside `datasets` folder
 
+# Arsitektur Design System Machine Learning :
+
+![alt text](https://raw.githubusercontent.com/oottoohh/SkripsiProject/master/ArsitekturDesign.png)
 
 
