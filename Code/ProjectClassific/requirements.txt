@@ -7,5 +7,5 @@ pymongo==3.6.1
 Sastrawi==1.0.1
 seaborn==0.8.1
 Flask==0.12.2
-Flask-Cors==3.0.3
+Flask-Cors==3.0.9
 Flask-SocketIO==2.9.6
